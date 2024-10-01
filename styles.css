@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E0E0E0; 
+}
+
+
+.navbar {
+    background-color: #455F5B; 
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; 
+}
+
+.hero-section {
+    background: linear-gradient(rgba(69, 95, 91, 0.7), rgba(69, 95, 91, 0.7)); 
+    background-size: cover; 
+    color: white; 
+}
+
+
+.content-section {
+    padding: 50px 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+#Biodata {
+    background-color: #E9F5F2; 
+    border-radius: 10px; 
+    padding: 30px; 
+}
+
+#Spoiler {
+    background-color: #E0E0E0; 
+    border-radius: 10px; 
+    padding: 30px; 
+}
+
+.accordion-button {
+    background-color: #455F5B; 
+    color: white; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #6C757D; 
+    color: white; 
+}
+
+
+footer {
+    background: linear-gradient(to right, #4B4B4B, #343a40); 
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+footer a:hover {
+    color: #FFD700; 
+    text-decoration: underline;
+}
